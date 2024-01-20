@@ -1,0 +1,71 @@
+{
+  "diagram_name": "Context Diagram for Open Banking System",
+  "actors": [
+    {
+      "name": "Personal Banking Customer",
+      "description": "A customer of the bank, with personal bank accounts."
+    },
+    {
+      "name": "Product Consumer",
+      "description": "Consumes Banking Products"
+    }
+  ],
+  "containers": [
+    {
+      "name": "API Application",
+      "technology": "Java and Spring MVC",
+      "description": "Provides Internet banking functionality via a JSON/HTTPS API."
+    },
+    {
+      "name": "Mobile App",
+      "technology": "Xamarin",
+      "description": "Provides a limited subset of the Internet banking functionality to customers via their mobile device."
+    }
+  ],
+  "databases": [
+    {
+      "name": "Database",
+      "technology": "Oracle Database Schema",
+      "description": "Stores user registration information, hashed authentication credentials, access logs, etc."
+    }
+  ],
+  "systems": [
+    {
+      "name": "Email Service",
+      "description": "Used for email inbound & outbound services",
+      "external": true
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Personal Banking Customer",
+      "relationship": "Uses",
+      "target": "API Application"
+    },
+    {
+      "source": "API Application",
+      "relationship": "Uses",
+      "target": "Mobile App"
+    },
+    {
+      "source": "API Application",
+      "relationship": "Raises",
+      "target": "Mobile App"
+    },
+    {
+      "source": "API Application",
+      "relationship": "Sends",
+      "target": "Email Service"
+    },
+    {
+      "source": "Email Service",
+      "relationship": "Sends",
+      "target": "API Application"
+    },
+    {
+      "source": "Product Consumer",
+      "relationship": "Uses",
+      "target": "API Application"
+    }
+  ]
+}

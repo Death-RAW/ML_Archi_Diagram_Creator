@@ -1,0 +1,384 @@
+As a borrower, I want to search by title, so that I can check it exists or not on database.
+As a customer, I want to reserve a book
+As a customer, I want to see book categories.
+As a customer, I want to create my borrows
+As a customer, I want to create which book has been read the most this month.
+As a customer, I want to delete book recomendation.
+As a customer, I want to delete my borrows
+As a customer, I want to delete which book has been read the most this month.
+As a customer, I want to make book recomendation.
+As a customer, I want to read book recomendation.
+As a customer, I want to see my borrows
+As a customer, I want to see the availability of books.
+As a customer, I want to see which book has been read the most this month.
+As a customer, I want to update book recomendation.
+As a customer, I want to update my borrows
+As a customer, I want to update which book has been read the most this month.
+As a librarian, I want a random book suggestion system so I can recommend to the visitors that are asked for book suggestions since I do not read books.
+As a librarian, I want to add and edit the subscribers' profiles so that I can enter their details in the system
+As a librarian, I want to add books to the library.
+As a librarian, I want to add new books
+As a librarian, I want to add new books so that members can see new books.
+As a librarian, I want to add new books to book list.
+As a librarian, I want to add new members.
+As a librarian, I want to add the new book so that I can add the new book in the system.
+As a librarian, I want to arrange book list based on authors.
+As a librarian, I want to be able to add new members
+As a librarian, I want to be able to calculate fees for delayed book returns
+As a librarian, I want to be able to see the list of overdue books.
+As a librarian, I want to be able to update members subscription plans
+As a librarian, I want to be able to update the status of a book as checked-out during check-out.
+As a librarian, I want to block unwanted members.
+As a librarian, I want to calculate the fee for delayed book returns.
+As a librarian, I want to chat with users.
+As a librarian, I want to check the maintenance dates of the books so that I can periodically.
+As a librarian, I want to check the number of books available for borrowing.
+As a librarian, I want to check where the books is so that I can easily find the book's shelf.
+As a librarian, I want to check which subscriber passed their due date, so that I can make a call to warn the subscribers.
+As a librarian, I want to count the books borrowed by users at a particular time so that I can give them some gifts.
+As a librarian, I want to create book list.
+As a librarian, I want to create information about borrowed books.
+As a librarian, I want to create pages for book information.
+As a librarian, I want to delete books
+As a librarian, I want to delete books from the library.
+As a librarian, I want to delete information about borrowed books.
+As a librarian, I want to delete members
+As a librarian, I want to detect unreturned books so that I can reject members.
+As a librarian, I want to determine long tail books, so that I can pull out less valuable books from the collection.
+As a librarian, I want to divide books by subject, author and title, so that I can find easily.
+As a librarian, I want to edit a member subscription
+As a librarian, I want to edit book list.
+As a librarian, I want to edit current books shelf information
+As a librarian, I want to edit details about books and their locations.
+As a librarian, I want to edit details about books.
+As a librarian, I want to edit list of borrowed books.
+As a librarian, I want to edit suggestion list.
+As a librarian, I want to edit the detail of books in the library so that I can fix in case of any mistake about them.
+As a librarian, I want to edit the due date of loaned books so that I can change the date if the borrower informs in advance.
+As a librarian, I want to enter details about books and their shelf number.
+As a librarian, I want to find the bookshelf for the books that are asked by visitors.
+As a librarian, I want to get alert when the due date is passed.
+As a librarian, I want to give suggestions.
+As a librarian, I want to keep track of book payments, subscription and subscriber profiles so that I can increase efficiency.
+As a librarian, I want to keep track of member subscription information.
+As a librarian, I want to keep track of subscriptions
+As a librarian, I want to keep track of the most read authors so that I can buy more books from that author for the readers.
+As a librarian, I want to keep track of the total numbers of borrowed books so that I can see the statistics.
+As a librarian, I want to keep track of the users who return their books after the due date.
+As a librarian, I want to know when books are available so that give information to users who want to borrow the book.
+As a librarian, I want to know which books are in the shelves.
+As a librarian, I want to know which books does not return.
+As a librarian, I want to know who borrowed the book.
+As a librarian, I want to line up the borrowers by the request dates so that I can give away the books in order.
+As a librarian, I want to notify members so that they can follow due dates.
+As a librarian, I want to place a unique identification number so that books can be tracked easily.
+As a librarian, I want to purchase books.
+As a librarian, I want to record the returned books' condition so that I can report the last borrower to the law enforcement.
+As a librarian, I want to remove relevant book from asset list when a user gets it.
+As a librarian, I want to reserve shelves for incoming books
+As a librarian, I want to seach for places of books.
+As a librarian, I want to search books according to their title, author, subject category, and publication date or place reservations 
+As a librarian, I want to search the books based on their names so that I can check the availability of the book.
+As a librarian, I want to see books that are currently unavailable so that I can get reservartions from the library members.
+As a librarian, I want to see books that are overdue so that I can warn library members.
+As a librarian, I want to see due dates of each book.
+As a librarian, I want to see expired books, so that I can send notification.
+As a librarian, I want to see information about borrowed books.
+As a librarian, I want to see late returns.
+As a librarian, I want to see member informations
+As a librarian, I want to see the all book names.
+As a librarian, I want to see the all reserved books.
+As a librarian, I want to see the books that are currently unavailable, so that I can warn members.
+As a librarian, I want to see the delayed books by a particular reader, so that I can warn him/her.
+As a librarian, I want to see the due date of borrowed books so that I can initiate the return process.
+As a librarian, I want to see the list of members.
+As a librarian, I want to see the locations of the books so that I can put them in the right places.
+As a librarian, I want to see the statistics of most frequently borrowed books so that I can increase the stock for better service.
+As a librarian, I want to see the total number of books.
+As a librarian, I want to see when a borrowed book will return, so that I can inform the other users who demand the same book. 
+As a librarian, I want to send automatic email and sms to the customer when the due date is passed.
+As a librarian, I want to sort the unique identification numbers with the related genre of books so I can search for books easier.
+As a librarian, I want to store member information so that I can track them.
+As a librarian, I want to update book list.
+As a librarian, I want to update booklists.
+As a librarian, I want to update books shelf information
+As a librarian, I want to update information about borrowed books.
+As a librarian, I want to update pages for book information.
+As a librarian, I want to update the list of members.
+As a librarian, I want to view book prices so that I can choose books for purchase.
+As a librarian, I want to view the due dates of borrowed books so that I can inform members.
+As a librarian, I want to view the publish dates of the books.
+As a library employee, I want to ban a member.
+As a library employee, I want to see a member’s book reservation history.
+As a library manager, I want to assign a book to unique identification number so that I can track the books better in the database.
+As a library manager, I want to calculate fines for delayed returns
+As a library manager, I want to create a book record so that I can add new books to the library.
+As a library manager, I want to delete a book record so that I can remove books from the library.
+As a library manager, I want to delete the fines so that I can remove the fine if the member pays the fine.
+As a library manager, I want to generate reports on book genres, so that I can decide on topic to expand the collection.
+As a library manager, I want to keep books and their checkouts
+As a library manager, I want to keep track of asset collections
+As a library manager, I want to keep track of interactions with their patrons
+As a library manager, I want to keeping track of subscriber profiles and subscriptions
+As a library manager, I want to know members' library score, so that I can set a threshold to decide whether to lend another book or not.
+As a library manager, I want to know statistical information on popularity, so that I can configure library arrangement optimally.
+As a library manager, I want to know the due dates so that I can announce the fines to the members when they delay to return.
+As a library manager, I want to know the reserved books so that I can remind the member who currently has the book to bring the book when due date is over.
+As a library manager, I want to know the unique identification number so that I can say to the member whether the book is currently available or not.
+As a library manager, I want to know which books are borrowed most so that I can bring the further copies of the books.
+As a library manager, I want to see condition of each book, so that I can replace an old book with a newer one.
+As a library manager, I want to see due date of each book so that I can track them.
+As a library manager, I want to see the books by authors, so that I can check if there are any missing books by that author.
+As a library manager, I want to track the checkouts of the members so that I can block them to checkout too many books.
+As a library manager, I want to track the due dates so that I can remind the members to return the books that they borrow.
+As a library manager, I want to track the fines so that I can warn the authorities.
+As a library manager, I want to track the reserved books so that I will not give these books to other members.
+As a library manager, I want to update a book record so that I can update the status of the book.
+As a library manager, I want to update the shelf number of the book so that members can track the location of the book.
+As a library member, I want to apply for time extension.
+As a library member, I want to be able to access to the platform at any time so that I can perform preservation. 
+As a library member, I want to change the due date of the book that borrowed by myself so that I can delay the due date.
+As a library member, I want to check availability of books, so that I can borrow them.
+As a library member, I want to click into a book, so that I can get more information on that item.
+As a library member, I want to display books so that I can decide the book which I will take.
+As a library member, I want to display my previous checkouts so that I can keep track of the books that I borrowed.
+As a library member, I want to display my previous reservations so that I can keep track of my reservations.
+As a library member, I want to display whether the book is reserved or not so that I can place a reservation.
+As a library member, I want to edit my profile so that I can update my profile.
+As a library member, I want to extend the due date of the book.
+As a library member, I want to filter books according to their category.
+As a library member, I want to get email when there is a new book so that I can borrow it.
+As a library member, I want to get notification about due dates so that I can remember the due date.
+As a library member, I want to have gamification among top members, so that I keep myself motivated to read.
+As a library member, I want to keep track of books from an app so that I can know if it is taken or in the library before I go.
+As a library member, I want to learn availability of books, so that I can reserve it.
+As a library member, I want to learn due date of an unavailable book, so that I can decide to wait or buy it from the book store
+As a library member, I want to learn unique identification number so that I can find book by it.
+As a library member, I want to list all books of an author so that I can choose between them.
+As a library member, I want to locate related books and see the shelf number in the library by using unique information to speed up the searching process.
+As a library member, I want to look up books listed by author so that I can find the book i am looking for easier.
+As a library member, I want to look up books listed by place reservation so that I can find the book i am looking for easier.
+As a library member, I want to look up books listed by publication date so that I can find the book i am looking for easier.
+As a library member, I want to look up books listed by subject category so that I can find the book i am looking for easier.
+As a library member, I want to look up books listed by title so that I can find the book i am looking for easier.
+As a library member, I want to make reservation for a book for 2 days so that I can reserve the book remotely.
+As a library member, I want to order books according to title.
+As a library member, I want to pay contactless through an app so that I can pay easily without an employee or cash.
+As a library member, I want to pay through mobile bank systems.
+As a library member, I want to perform operations under 20 seconds.
+As a library member, I want to preserve a book.
+As a library member, I want to receive due date notification from the system, so that I wont miss due date of deliver.
+As a library member, I want to receive due date notifications from the system, so that I can return the book on time.
+As a library member, I want to reserve more than one book.
+As a library member, I want to search the book based on their names so that I can check the availability of book.
+As a library member, I want to see availability of books, so that I can borrow available one.
+As a library member, I want to see book that are currently unavailable so that I can wait for it.
+As a library member, I want to see books according to the author so that I can see all books of my favorite author at the same time.
+As a library member, I want to see place of book so that I can react it easily.
+As a library member, I want to see the due dates of the books that I have borrowed in my profile.
+As a library member, I want to see the library plan so that I can easily find the resources.
+As a library member, I want to see the number of reservations of a book until now so that I can think of its popularity.
+As a library member, I want to sort & filter my search results, so that I can refine my selection.
+As a library staff, I want to see shelf location of book in the library so that I can give book to the member quickly.
+As a library user, I want to register to the system with my name, surname and credentials so that I can borrow books from the library.
+As a library visitor, I want a random book suggestion system so that I can have some excitement in my life.
+As a library visitor, I want to find the book that I am looking for by the name of the writer.
+As a library visitor, I want to know if the author of the book that I read is dead or alive so that I can go and visit if I like his/her writings.
+As a library visitor, I want to know if the book that I am about to borrow is damaged or not so that I do not have another OCD attack.
+As a library visitor, I want to sort the books in alphabetical order only searching for the genre that I am interested in.
+As a library worker, I want to list current subscribers.
+As a library worker, I want to list members who borrowed a book so that I can learn when the given book will be returned.
+As a manager, I want to create book categories.
+As a manager, I want to create library members.
+As a manager, I want to create the employee information.
+As a manager, I want to delete book categories.
+As a manager, I want to delete library members.
+As a manager, I want to delete the employee information.
+As a manager, I want to see library members.
+As a manager, I want to see the employee information.
+As a manager, I want to update book categories.
+As a manager, I want to update library members.
+As a manager, I want to update the employee information.
+As a manager, I want to check librarians and members.
+As a manager, I want to create the paying subscriptions.
+As a manager, I want to create what type of books are borrowed the most.
+As a manager, I want to delete subscriber accounts so that I can delete accounts when requested.
+As a manager, I want to delete the paying subscriptions.
+As a manager, I want to delete what type of books are borrowed the most.
+As a manager, I want to filter delayed returns so that I can get contact with related members to request return.
+As a manager, I want to follow list of borrowed books.
+As a manager, I want to give books unique ids, so that they can be easily tracked.
+As a manager, I want to keep accounts for purchased books.
+As a manager, I want to keep track of books.
+As a manager, I want to make book discount to customers.
+As a manager, I want to see all book available so that I can request new books if necessary.
+As a manager, I want to see all interactions
+As a manager, I want to see borrowed books so that I can plan strategies for genre.
+As a manager, I want to see library member contact info.
+As a manager, I want to see member number.
+As a manager, I want to see membership information.
+As a manager, I want to see missing book numbers.
+As a manager, I want to see the feedbacks.
+As a manager, I want to see the members that passed the due date for returning books so that I can determine their penalties.
+As a manager, I want to see the number of reservations per book on a yearly basis so that I can arrange the number of books regarding their demands.
+As a manager, I want to see the paying subscriptions.
+As a manager, I want to see the total number of members that visit library day by day.
+As a manager, I want to see what type of books are borrowed the most.
+As a manager, I want to track book checkouts, subscription and subscriber profiles to improve operational efficiency.
+As a manager, I want to track borrowed books, user IDs who borrowed them and due dates to calculate fines for delayed returns.
+As a manager, I want to track new books that added to current collection monthly to see collection size.
+As a manager, I want to update the paying subscriptions.
+As a manager, I want to update what type of books are borrowed the most.
+As a member of the library, I want to look up for books by title, author, subject category, and publication date
+As a member of the library, I want to place reservations for books that are currently unavailable
+As a member of the library, I want to reserve books so that I can borrow it when it is available.
+As a member of the library, I want to search books by titles and authors so that I can see if the book exists.
+As a member of the library, I want to see place of a unique identification number
+As a member of the library, I want to see unique identification number of a book.
+As a member, I want to access all the books in library.
+As a member, I want to add other members as friend.
+As a member, I want to assign a unique identification number to the books.
+As a member, I want to be able to pay on the system when I'm get fined.
+As a member, I want to be able to see amount of fine.
+As a member, I want to be notified so that I can return book on time.
+As a member, I want to borrow a book so that I can read the book outside of the library.
+As a member, I want to calculate the fine for delayed returns by automatically.
+As a member, I want to choose book genres.
+As a member, I want to create a reservation so that I can take the book after book is returned.
+As a member, I want to delete online reservations for books.
+As a member, I want to display location of a book in library, so that I can keep find a book in library.
+As a member, I want to display reservation status of a book, so that I can see the book's availability before going to library to borrow a book
+As a member, I want to edit my profile.
+As a member, I want to filter the specific authors books in the library so that I can check my favorite authors’ book.
+As a member, I want to find the books by a unique id.
+As a member, I want to get notification for due dates.
+As a member, I want to give comments on books.
+As a member, I want to have a wish list.
+As a member, I want to know shelf numbers of the books so that I can find them easily.
+As a member, I want to locate related books and see the shelf number in the library by using unique ID to speed up the searching process.
+As a member, I want to look up books by author so that I can search the books that I forget their title.
+As a member, I want to look up books by author.
+As a member, I want to look up books by place reservations
+As a member, I want to look up books by publication date.
+As a member, I want to look up books by subject category.
+As a member, I want to look up books by their place reservations so that I can see if they are available.
+As a member, I want to look up books by title so that I can search the books that I forget their author.
+As a member, I want to look up books by title, author, subject category and publication date to easily list publications.
+As a member, I want to look up books by title.
+As a member, I want to make online reservations for books.
+As a member, I want to place reservations for books so that I can get them as soon as possible when they are available in the library.
+As a member, I want to place reservations for requesting the publications that are currently unavailable to improve reservation experience and gain time.
+As a member, I want to read my borrowed books list, so that I can keep track of borrowed books.
+As a member, I want to read online reservations for books.
+As a member, I want to read the book record so that I can see whether book is borrowed or not.
+As a member, I want to read the delay books list, so that I can immediately return them.
+As a member, I want to register to the system with my name, surname and credentials so that I can borrow books from the library.
+As a member, I want to remove reservations so that I can cancel my reservation anytime I want.
+As a member, I want to reserve a book.
+As a member, I want to search book by author, so that I can quickly search for an author's book.
+As a Member, I want to search book by name, so that I can quickly search for a book
+As a Member, I want to search book by publication date, so that I can filter books by date.
+As a Member, I want to search book by subject category, so that I can quickly search for a subject.
+As a member, I want to search books by author, so that I can reach all the books of my favorite authors.
+As a member, I want to search the books by author so that I can borrow the books of my favorite author.
+As a member, I want to search the books by publication date so that I can have the newest or oldest versions of the books as to my preference.
+As a member, I want to search the books by subject category so that I can borrow the new books whose subjects attract me.
+As a member, I want to search the books by their extra information such as author or category so that I can find the books that I forget their titles.
+As a member, I want to see book list.
+As a member, I want to see daily newspapers.
+As a member, I want to see due date.
+As a member, I want to see maximum page numbers of books.
+As a member, I want to see member other members’ comments so that I can have book suggestions.
+As a member, I want to see most borrowed books.
+As a member, I want to see my book reservation.
+As a member, I want to see my previous subscriptions so that I can check that I borrowed the same book before.
+As a member, I want to see new books so that I can borrow.
+As a member, I want to see new books.
+As a member, I want to see the books that I have taken with their due dates so that I can return them on time.
+As a member, I want to see the due date of the book if the book is already borrowed.
+As a member, I want to see the fine I have to pay for the delayed returns.
+As a member, I want to see the library opening and closing hours.
+As a member, I want to see the list of books I have borrowed.
+As a member, I want to see the remaining time for returning books so that I don’t pass the deadline.
+As a member, I want to see the shelf number of the book so that I can track the location of the book.
+As a member, I want to see the shelf number of the books that are available so that I can go to the necessary location and take it.
+As a member, I want to see the suggested books according to keywords, so that I can make my research more effectively. 
+As a member, I want to see the total number of account based penalties that are incurred, so that I will pay on time.
+As a member, I want to take recommendation.
+As a member, I want to take suggestions.
+As a member, I want to talk to the librarians.
+As a member, I want to track my reservations so that I can see whenever I can take the book.
+As a member, I want to update my reservation so that I can change the date of the reservation.
+As a member, I want to update online reservations for books.
+As a member, I want to view book genres.
+As a member, I want to view book's shelf information.
+As a member, I want to view genres of books so that I can find some materials for my research.
+As a member, I want to view my book borrowing history.
+As a member, I want to view which books I borrowed with their due dates.
+As a reader, I want to comment on books.
+As a reader, I want to see my favorite genres so that I can explore new books easily by looking at their genres.
+As a reader, I want to see the availability of the book so that I can see if I can borrow the specific book.
+As a reader, I want to see the bestseller books so that I can follow the trend.
+As a reader, I want to see the number of books associated with a specific genre.
+As a reader, I want to see the top readers of the month so that it can encourage me to read more books to be in the top readers list.
+As a staff, I want to add book checkouts to the system.
+As a staff, I want to add books with shelf number.
+As a staff, I want to add books with unique id.
+As a staff, I want to add borrowed books to the system with their due dates.
+As a staff, I want to add borrowed books to the system with their user information.
+As a staff, I want to add new books to the system.
+As a staff, I want to be able to read book checkouts.
+As a staff, I want to calculate fines automatically, so that I can keep track of late checkouts.
+As a staff, I want to calculate fines for delayed returns.
+As a staff, I want to checkout a book, so that I can keep track of books after reservation.
+As a Staff, I want to create book, so that I can update library.
+As a staff, I want to create new subscriber profiles.
+As a staff, I want to create subscriber's subscription types.
+As a staff, I want to delete book checkouts if the book is returned.
+As a Staff, I want to delete book, so that I can update library when a book is removed from library.
+As a staff, I want to delete books that we don't have.
+As a staff, I want to delete old books with unique id.
+As a staff, I want to delete old subscriber profiles.
+As a staff, I want to display location of a book in library, so that I can keep track of books.
+As a staff, I want to display member profiles, so that I am informed on member records.
+As a staff, I want to display reservation status of a book, so that I can see the book's availability
+As a Staff, I want to display reservations of a member, so that I can keep track of reservations.
+As a Staff, I want to edit book, so that I can correct book records those are faulty.
+As a staff, I want to have a management system.
+As a staff, I want to interact with my patrons.
+As a staff, I want to keep track of books.
+As a staff, I want to keep track of my assets.
+As a staff, I want to keep track of subscriber profiles.
+As a staff, I want to reserve a book to a member, so that I can keep track of books.
+As a Staff, I want to search book by author, so that I can quickly search for an author's book.
+As a Staff, I want to search book by name, so that I can quickly search for a book
+As a Staff, I want to search book by publication date, so that I can filter books by date.
+As a Staff, I want to search book by subject category, so that I can quickly search for a subject.
+As a staff, I want to specify unique id number for each book, so that I can keep track of books.
+As a staff, I want to update book checkouts if there is any change.
+As a staff, I want to update subscriber's subscription types.
+As a staff, I want to update the book's availability.
+As a student, I want to ask for books that are currently unavailable
+As a student, I want to be able to search for a specific author
+As a student, I want to be able to search for a specific genre
+As a student, I want to be able to search for books
+As a student, I want to be able to see page information of books
+As a student, I want to be able to subscribe to library
+As a student, I want to find shelf information of books.
+As a student, I want to find the books by genre.
+As a student, I want to see shelf information of a books
+As a student, I want to see the books that are currently unavailable so that I can arrange my reading plan.
+As a student, I want to see the list of authors so that I can borrow a book from a specific author.
+As a system, I want to know details about which books located in the specified shelf.
+As a user, I want to comment about books.
+As a user, I want to create booklists
+As a user, I want to see other users profiles.
+As a user, I want to see the list of books.
+As a user, I want to see the remaining days to return the book so that I can prevent paying a fine.
+As an employee, I want to log my work times.
+As an librarian, I want to calculate fines for the due date.
+As an librarian, I want to create books in the library.
+As an librarian, I want to delete books in the library.
+As an librarian, I want to read books in the library.
+As an librarian, I want to remove books from the library.
+As an librarian, I want to update books in the library.

@@ -1,0 +1,263 @@
+Sentence (Text),Entity1,Entity1 Type,Entity2,Entity2 Type,Relationship,Relationship Type
+Customer should be able to send a notification,customer,PERSON,notification,SYSTEM,sends,Association
+The system should allow for file uploads,system,SYSTEM,file uploads,PROCESS,allows,Association
+Users access the web application,user role,USER ROLE,web application,APPLICATION,accesses,Access
+The system fetches data from the database,system,SYSTEM,database,DATA,fetches,Association
+The component is part of the system,component,COMPONENT,system,SYSTEM,part,Aggregation
+The hardware component runs the application,hardware,HARDWARE,application,APPLICATION,runs,Association
+The feature satisfies the technical requirement,feature,FEATURE,technical requirement,TECH REQ,satisfies,Dependency
+The business requirement drives the development of the feature,business requirement,BUSINESS REQ,feature,FEATURE,drives,Dependency
+The administrator manages user accounts,administrator,USER ROLE,user accounts,DATA,manages,Association
+The API is a realization of the service interface,API,COMPONENT,service interface,COMPONENT,realizes,Realization
+The mobile application inherits from the base application,mobile application,APPLICATION,base application,APPLICATION,inherits,Inheritance
+The server communicates with the database,server,SYSTEM,database,SYSTEM,communicates,Connection
+User role has access to specific system features,user role,USER ROLE,system features,FEATURE,accesses,Access
+The application stores data in the local cache,application,APPLICATION,local cache,DATA,stores,Association
+The frontend component sends requests to the backend component,frontend component,COMPONENT,backend component,COMPONENT,sends,Interaction
+The department has a specific data storage location,department,DEPARTMENT,data storage location,LOC,has,Association
+The sales department uses the CRM system,sales department,DEPARTMENT,CRM system,SYSTEM,uses,Association
+The system is composed of multiple hardware components,system,SYSTEM,hardware components,HARDWARE,composed of,Composition
+The authentication service verifies user credentials,authentication service,COMPONENT,user credentials,DATA,verifies,Association
+The hardware device provides a connection to the network,hardware device,HARDWARE,network,SYSTEM,provides,Connection
+The cloud storage service depends on the authentication service,cloud storage service,COMPONENT,authentication service,COMPONENT,depends on,Dependency
+The user interface is an aggregation of multiple UI components,user interface,COMPONENT,UI components,COMPONENT,aggregates,Aggregation
+The load balancer distributes incoming traffic evenly,load balancer,COMPONENT,incoming traffic,DATA,distributes,Association
+The database is backed up to a remote location,database,DATA,remote location,LOC,backed up,Association
+The email notification system interacts with the user,email notification system,SYSTEM,user,PERSON,interacts,Interaction
+The user submits a form to create a new record,user,PERSON,new record,DATA,creates,Association
+The billing system aggregates data from multiple sources,billing system,SYSTEM,data sources,DATA,aggregates,Aggregation
+The content delivery network connects to multiple data centers,content delivery network,SYSTEM,data centers,LOC,connects,Connection
+The reporting system fetches data from the data warehouse,reporting system,SYSTEM,data warehouse,DATA,fetches,Association
+Customers can access their account information,customer,PERSON,account information,DATA,access,Access
+The mobile banking app connects to the backend server,mobile banking app,APPLICATION,backend server,SYSTEM,connects,Connection
+The account management component handles account creation,account management component,COMPONENT,account creation,PROCESS,handles,Association
+The loan approval system fetches data from the credit history database,loan approval system,SYSTEM,credit history database,DATA,fetches,Association
+The bank employee manages the customer accounts,bank employee,USER ROLE,customer accounts,DATA,manages,Association
+The ATM hardware communicates with the bank's central server,ATM hardware,HARDWARE,central server,SYSTEM,communicates,Connection
+The transaction processing system logs all transactions,transaction processing system,SYSTEM,transactions,DATA,logs,Association
+The bank's frontend application sends requests to the backend service,frontend application,APPLICATION,backend service,COMPONENT,sends,Interaction
+The customer support department handles customer inquiries,customer support department,DEPARTMENT,customer inquiries,DATA,handles,Association
+The online banking system is composed of multiple components,online banking system,SYSTEM,components,COMPONENT,composed of,Composition
+The payment gateway depends on the authentication service,payment gateway,COMPONENT,authentication service,COMPONENT,depends on,Dependency
+The account creation process requires customer identification,account creation process,PROCESS,customer identification,DATA,requires,Dependency
+The bank's database stores account information,bank's database,DATA,account information,DATA,stores,Association
+The mobile app interacts with the customer's device,mobile app,APPLICATION,customer's device,HARDWARE,interacts,Interaction
+The fraud detection system analyzes transaction data,fraud detection system,SYSTEM,transaction data,DATA,analyzes,Association
+The ATM machine is a realization of the ATM interface,ATM machine,HARDWARE,ATM interface,COMPONENT,realizes,Realization
+The teller role has access to account management features,teller role,USER ROLE,account management features,FEATURE,accesses,Access
+The user interface is an aggregation of multiple UI components,user interface,COMPONENT,UI components,COMPONENT,aggregates,Aggregation
+The bank's server is located in a secure data center,bank's server,SYSTEM,secure data center,LOC,located,Association
+The bank's website uses HTTPS for secure communication,bank's website,APPLICATION,HTTPS,TECH REQ,uses,Dependency
+The bank's mobile app allows customers to view their transaction history,bank's mobile app,APPLICATION,transaction history,DATA,allows,Association
+The customer service representative assists customers with account issues,customer service representative,USER ROLE,account issues,DATA,assists,Association
+The bank's central server communicates with branch servers,central server,SYSTEM,branch servers,SYSTEM,communicates,Connection
+The loan processing system inherits from the base financial system,loan processing system,SYSTEM,base financial system,SYSTEM,inherits,Inheritance
+The transaction history is stored in the bank's database,transaction history,DATA,bank's database,DATA,stored,Association
+The credit card processing component depends on the payment gateway,credit card processing component,COMPONENT,payment gateway,COMPONENT,depends on,Dependency
+The bank's internal network provides access to various systems and data,bank's internal network,SYSTEM,systems and data,DATA,provides,Access
+The mortgage approval component verifies customer credit history,mortgage approval component,COMPONENT,credit history,DATA,verifies,Association
+The bank's website aggregates information from various departments,bank's website,APPLICATION,department information,DEPARTMENT,aggregates,Aggregation
+The account transfer process requires authorization from the user,account transfer process,PROCESS,user authorization,DATA,requires,Dependency
+The customer can deposit money at the ATM,customer,PERSON,ATM,HARDWARE,deposits,Association
+The web application is hosted on a cloud server,web application,APPLICATION,cloud server,SYSTEM,hosted,Association
+The fraud detection system is a composition of multiple subsystems,fraud detection system,SYSTEM,subsystems,COMPONENT,composed of,Composition
+The bank's mobile app interacts with the payment processing system,bank's mobile app,APPLICATION,payment processing system,SYSTEM,interacts,Interaction
+The security department monitors the bank's network for potential threats,security department,DEPARTMENT,bank's network,SYSTEM,monitors,Association
+The customer can schedule recurring payments through the online banking system,customer,PERSON,recurring payments,PROCESS,schedules,Association
+The bank's backend system processes transactions and updates account balances,backend system,SYSTEM,transactions and account balances,DATA,processes,Association
+The savings account component is an inheritance of the base account component,savings account component,COMPONENT,base account component,COMPONENT,inherits,Inheritance
+The user can access their account information through the bank's web portal,user,PERSON,account information,DATA,accesses,Access
+The bank's online platform provides a connection to the customer's devices,bank's online platform,SYSTEM,customer's devices,HARDWARE,provides,Connection
+The bank's internal messaging system allows for communication between departments,bank's internal messaging system,SYSTEM,communication between departments,DEPARTMENT,allows,Association
+The account management system relies on the customer database,account management system,SYSTEM,customer database,DATA,relies on,Dependency
+The user management system fetches user data from the database,user management system,SYSTEM,database,DATA,fetches,Association
+The authentication system verifies user credentials,authentication system,SYSTEM,user credentials,DATA,verifies,Association
+The messaging service communicates with the user management system,messaging service,SYSTEM,user management system,SYSTEM,communicates,Connection
+The email service sends account confirmation emails,email service,SYSTEM,account confirmation emails,DATA,sends,Association
+The user management system is composed of multiple components,user management system,SYSTEM,components,COMPONENT,composed of,Composition
+The frontend application interacts with the user management system,frontend application,APPLICATION,user management system,SYSTEM,interacts,Interaction
+The authentication service relies on the user database,authentication service,COMPONENT,user database,DATA,relies on,Dependency
+The user management system allows users to update their profiles,user management system,SYSTEM,user profiles,DATA,allows,Association
+The messaging service is a realization of the messaging API,messaging service,SYSTEM,messaging API,COMPONENT,realizes,Realization
+The email service is connected to the user management system,email service,SYSTEM,user management system,SYSTEM,connected,Connection
+The user management system stores user data in the database,user management system,SYSTEM,user data,DATA,stores,Association
+The authentication component is an inheritance of the base component,authentication component,COMPONENT,base component,COMPONENT,inherits,Inheritance
+The user management system sends notifications through the messaging service,user management system,SYSTEM,messaging service,SYSTEM,sends,Interaction
+The user management system accesses the email service to send password resets,user management system,SYSTEM,email service,SYSTEM,accesses,Access
+The frontend application is hosted on a web server,frontend application,APPLICATION,web server,SYSTEM,hosted,Association
+The user database is backed up to a secure storage location,user database,DATA,secure storage location,LOC,backed up,Association
+The user management system processes user account deletion requests,user management system,SYSTEM,user account deletion requests,DATA,processes,Association
+The messaging service communicates with the email service,messaging service,SYSTEM,email service,SYSTEM,communicates,Connection
+The user management system depends on the authentication service,user management system,SYSTEM,authentication service,COMPONENT,depends on,Dependency
+The user management system aggregates user data from different sources,user management system,SYSTEM,user data sources,DATA,aggregates,Aggregation
+The frontend application has access to user data through the user management API,frontend application,APPLICATION,user data,DATA,accesses,Access
+The authentication component interacts with the user management system,authentication component,COMPONENT,user management system,SYSTEM,interacts,Interaction
+The user management system provides a connection to the email service,user management system,SYSTEM,email service,SYSTEM,provides,Connection
+The messaging service API depends on the messaging system,messaging service API,COMPONENT,messaging system,SYSTEM,depends on,Dependency
+The email service is an aggregation of multiple email providers,email service,SYSTEM,email providers,COMPONENT,aggregates,Aggregation
+The user management system allows user role assignment,user management system,SYSTEM,user role assignment,DATA,allows,Association
+The authentication system communicates with the user management system,authentication system,SYSTEM,user management system,SYSTEM,communicates,Connection
+The web application uses a frontend and backend architecture,web application,APPLICATION,frontend and backend architecture,COMPONENT,uses,Association
+The calendar application fetches event data from the database,calendar application,APPLICATION,event data,DATA,fetches,Association
+The photo editing application relies on image processing algorithms,photo editing application,APPLICATION,image processing algorithms,TECH REQ,relies on,Dependency
+The project management system stores project data in the cloud,project management system,SYSTEM,cloud storage,DATA,stores,Association
+The email client communicates with the email server,email client,APPLICATION,email server,SYSTEM,communicates,Connection
+The mobile game application is composed of multiple game components,mobile game application,APPLICATION,game components,COMPONENT,composed of,Composition
+The e-commerce platform integrates with payment processing services,e-commerce platform,SYSTEM,payment processing services,COMPONENT,integrates,Association
+The document management system allows users to upload and manage files,document management system,SYSTEM,files,DATA,allows,Association
+The social media platform is hosted on a cluster of web servers,social media platform,SYSTEM,web servers,SYSTEM,hosted,Association
+The content management system relies on a database for data storage,content management system,SYSTEM,database,DATA,relies on,Dependency
+The video streaming service communicates with content delivery networks,video streaming service,SYSTEM,content delivery networks,SYSTEM,communicates,Connection
+The weather application fetches data from weather APIs,weather application,APPLICATION,weather APIs,COMPONENT,fetches,Association
+The online learning platform is composed of multiple course modules,online learning platform,SYSTEM,course modules,COMPONENT,composed of,Composition
+The fitness tracking application interacts with the user's device,fitness tracking application,APPLICATION,user's device,HARDWARE,interacts,Interaction
+The note-taking application stores user notes in the cloud,note-taking application,APPLICATION,user notes,DATA,stores,Association
+The marketing automation platform sends emails to customers,marketing automation platform,SYSTEM,emails,DATA,sends,Association
+The customer relationship management system aggregates customer data,customer relationship management system,SYSTEM,customer data,DATA,aggregates,Aggregation
+The collaboration platform connects to multiple third-party services,collaboration platform,SYSTEM,third-party services,COMPONENT,connects,Connection
+The analytics platform processes and analyzes data from various sources,analytics platform,SYSTEM,data sources,DATA,processes,Association
+The file sharing application allows users to share files,file sharing application,APPLICATION,files,DATA,allows,Association
+The messaging application communicates with other users' devices,messaging application,APPLICATION,users' devices,HARDWARE,communicates,Connection
+The music streaming application accesses a large music database,music streaming application,APPLICATION,music database,DATA,accesses,Access
+The travel booking application integrates with multiple travel APIs,travel booking application,APPLICATION,travel APIs,COMPONENT,integrates,Association
+The news aggregation application fetches articles from various sources,news aggregation application,APPLICATION,articles,DATA,fetches,Association
+The inventory management system relies on a barcode scanning feature,inventory management system,SYSTEM,barcode scanning feature,FEATURE,relies on,Dependency
+The online forum allows users to post messages and comments,online forum,APPLICATION,messages and comments,DATA,allows,Association
+The e-learning platform supports multiple user roles,e-learning platform,SYSTEM,user roles,USER ROLE,supports,Association
+The task management application sends notifications to team members,task management application,APPLICATION,notifications,DATA,sends,Association
+The file synchronization service communicates with the cloud storage service,file synchronization service,SYSTEM,cloud storage service,SYSTEM,communicates,Connection
+The video conferencing application allows users to share their screens,video conferencing application,APPLICATION,screen sharing,FEATURE,allows,Association
+The restaurant review platform aggregates data from multiple sources,restaurant review platform,SYSTEM,review data,DATA,aggregates,Aggregation
+The weather application is a realization of the weather API,weather application,APPLICATION,weather API,COMPONENT,realizes,Realization
+The geolocation application communicates with GPS satellites,geolocation application,APPLICATION,GPS satellites,HARDWARE,communicates,Connection
+The online shopping platform stores customer purchase data,online shopping platform,SYSTEM,purchase data,DATA,stores,Association
+The e-book reader application allows users to access books from the library,e-book reader application,APPLICATION,library,DATA,allows,Access
+The customer support platform interacts with the CRM system,customer support platform,SYSTEM,CRM system,SYSTEM,interacts,Interaction
+The cloud storage service provides a connection to the user's devices,cloud storage service,SYSTEM,user's devices,HARDWARE,provides,Connection
+
+Spotify uses a microservices architecture,Spotify,APPLICATION,microservices architecture,COMPONENT,uses,Association
+The recommendation engine processes user listening data,recommendation engine,COMPONENT,user listening data,DATA,processes,Association
+Spotify's backend communicates with Cassandra for data storage,Spotify's backend,SYSTEM,Cassandra,SYSTEM,communicates,Connection
+The content delivery system relies on global CDNs,content delivery system,COMPONENT,global CDNs,SYSTEM,relies on,Dependency
+Spotify's API Gateway handles client requests,API Gateway,COMPONENT,client requests,DATA,handles,Association
+The music streaming service interacts with the user's device,music streaming service,SYSTEM,user's device,HARDWARE,interacts,Interaction
+Spotify uses Kafka for real-time data streaming,Spotify,APPLICATION,Kafka,SYSTEM,uses,Association
+Spotify's search system fetches data from Elasticsearch,search system,COMPONENT,Elasticsearch,SYSTEM,fetches,Association
+The audio processing component converts audio files,audio processing component,COMPONENT,audio files,DATA,converts,Association
+TikTok uses a distributed architecture,TikTok,APPLICATION,distributed architecture,COMPONENT,uses,Association
+The video recommendation system processes user behavior data,video recommendation system,COMPONENT,user behavior data,DATA,processes,Association
+TikTok's backend communicates with Cassandra for data storage,TikTok's backend,SYSTEM,Cassandra,SYSTEM,communicates,Connection
+The content delivery system relies on global CDNs,content delivery system,COMPONENT,global CDNs,SYSTEM,relies on,Dependency
+TikTok's API Gateway handles client requests,API Gateway,COMPONENT,client requests,DATA,handles,Association
+The video processing component compresses and optimizes video files,video processing component,COMPONENT,video files,DATA,compresses,Association
+TikTok's video streaming service interacts with the user's device,video streaming service,SYSTEM,user's device,HARDWARE,interacts,Interaction
+TikTok uses Kafka for real-time data streaming,TikTok,APPLICATION,Kafka,SYSTEM,uses,Association
+TikTok's search system fetches data from Elasticsearch,search system,COMPONENT,Elasticsearch,SYSTEM,fetches,Association
+The user management system in TikTok relies on a user database,user management system,SYSTEM,user database,DATA,relies on,Dependency
+The video transcoding component converts video formats,video transcoding component,COMPONENT,video formats,DATA,converts,Association
+The analytics platform in TikTok processes and analyzes data from various sources,analytics platform,SYSTEM,data sources,DATA,processes,Association
+The TikTok application has access to user data through the user management API,TikTok application,APPLICATION,user data,DATA,accesses,Access
+The video recommendation system in TikTok is a realization of the recommendation API,video recommendation system,COMPONENT,recommendation API,COMPONENT,realizes,Realization
+The TikTok application communicates with GPS satellites for geolocation,TikTok application,APPLICATION,GPS satellites,HARDWARE,communicates,Connection
+The video uploading system in TikTok stores video data in the cloud,video uploading system,COMPONENT,video data,DATA,stores,Association
+The ad-serving system in TikTok relies on user profile data,ad-serving system,COMPONENT,user profile data,DATA,relies on,Dependency
+The TikTok application supports multiple user roles,TikTok application,APPLICATION,user roles,USER ROLE,supports,Association
+The content management system in TikTok aggregates data from multiple content sources,content management system,COMPONENT,content sources,DATA,aggregates,Aggregation
+The TikTok application communicates with the video delivery system for content streaming,TikTok application,APPLICATION,video delivery system,SYSTEM,communicates,Connection
+The TikTok application provides a connection to the analytics system for insights,TikTok application,APPLICATION,analytics system,SYSTEM,provides,Connection
+The video storage system in TikTok depends on a distributed file system for scalability,video storage system,COMPONENT,distributed file system,SYSTEM,depends on,Dependency
+The TikTok application allows users to interact with other users' content,TikTok application,APPLICATION,users' content,DATA,allows,Association
+The video rendering component in TikTok processes and optimizes video display,video rendering component,COMPONENT,video display,DATA,processes,Association
+The application has a user-friendly interface,application,APPLICATION,user-friendly interface,FEATURE,has,Association
+The chat feature allows users to communicate with each other,chat feature,FEATURE,users,USER ROLE,allows,Association
+The notification system sends alerts to users when there is an update,notification system,SYSTEM,users,USER ROLE,sends,Association
+The calendar feature allows users to schedule events,calendar feature,FEATURE,users,USER ROLE,allows,Association
+The file sharing feature enables users to exchange documents,file sharing feature,FEATURE,users,USER ROLE,enables,Association
+The system relies on a two-factor authentication process for security,system,SYSTEM,two-factor authentication,FEATURE,relies on,Dependency
+The search functionality allows users to find relevant information,search functionality,FEATURE,users,USER ROLE,allows,Association
+The application offers a dark mode feature for better user experience,application,APPLICATION,dark mode feature,FEATURE,offers,Association
+The system provides a connection to a customer support chatbot,system,SYSTEM,customer support chatbot,COMPONENT,provides,Connection
+The user interface provides access to application settings,user interface,COMPONENT,application settings,DATA,provides,Access
+The feedback system allows users to submit suggestions and report issues,feedback system,SYSTEM,users,USER_ROLE,allows,Association
+The application allows for customizable themes and layouts,application,APPLICATION,customizable themes and layouts,FEATURE,allows,Association
+The system offers multi-language support for international users,system,SYSTEM,multi-language support,FEATURE,offers,Association
+The user management system provides an API for user data,user management system,SYSTEM,user data,DATA,provides,Connection
+The voice command feature allows users to control the application using speech,voice command feature,FEATURE,users,USER_ROLE,allows,Association
+The application provides integration with third-party services,application,APPLICATION,third-party services,COMPONENT,provides,Connection
+The system supports collaboration and sharing between users,system,SYSTEM,users,USER_ROLE,supports,Association
+The data synchronization feature keeps user data updated across devices,data synchronization feature,FEATURE,user data,DATA,keeps,Association
+The offline mode allows users to access the application without an internet connection,offline mode,FEATURE,users,USER_ROLE,allows,Association
+The application uses machine learning algorithms to improve user experience,application,APPLICATION,machine learning algorithms,TECH_REQ,uses,Association
+The location-based services feature provides users with relevant local information,location-based services,FEATURE,users,USER_ROLE,provides,Association
+The application supports gesture-based navigation for user interaction,application,APPLICATION,gesture-based navigation,FEATURE,supports,Association
+The system offers social media integration for easy sharing and engagement,system,SYSTEM,social media integration,FEATURE,offers,Association
+The personalization feature allows users to tailor the application to their preferences,personalization feature,FEATURE,users,USER_ROLE,allows,Association
+The analytics system in the application provides insights on user engagement,analytics system,SYSTEM,user engagement,DATA,provides,Association
+The bookmarking feature allows users to save their favorite content,bookmarking feature,FEATURE,users,USER_ROLE,allows,Association
+The application uses push notifications to engage users,application,APPLICATION,push notifications,DATA,uses,Association
+The system provides a connection to cloud storage for data backup,system,SYSTEM,cloud storage,DATA,provides,Connection
+The application offers an API for developers to access its features,application,APPLICATION,API,COMPONENT,offers,Association
+The system relies on an automated testing suite for quality assurance,system,SYSTEM,automated testing suite,COMPONENT,relies on,Dependency
+The application supports a wide range of device compatibility,application,APPLICATION,device compatibility,FEATURE,supports,Association
+The user interface adapts to different screen sizes and resolutions,user interface,COMPONENT,screen sizes and resolutions,TECH_REQ,adapts,Association
+The application provides users with a help center for support and guidance,application,APPLICATION,help center,COMPONENT,provides,Connection
+The system uses caching to improve application performance,system,SYSTEM,caching,TECH_REQ,uses,Association
+The application offers real-time collaboration features for users,application,APPLICATION,real-time collaboration,FEATURE,offers,Association
+The system has a built-in error reporting mechanism to identify and fix issues,system,SYSTEM,error reporting mechanism,COMPONENT,has,Association
+The application allows users to create and manage their profiles,application,APPLICATION,user profiles,DATA,allows,Association
+The system uses load balancing to handle high traffic volumes,system,SYSTEM,load balancing,TECH_REQ,uses,Association
+The application allows users to import and export data in various formats,application,APPLICATION,data import and export,FEATURE,allows,Association
+The system supports single sign-on (SSO) for user authentication,system,SYSTEM,single sign-on,FEATURE,supports,Association
+The application provides data visualization tools for users,application,APPLICATION,data visualization tools,FEATURE,provides,Association
+The system uses encryption to protect sensitive user data,system,SYSTEM,encryption,TECH_REQ,uses,Association
+The application supports cross-platform functionality for different operating systems,application,APPLICATION,cross-platform functionality,FEATURE,supports,Association
+The energy provider offers services via web browsers and mobile devices,energy provider,ORGANIZATION,web browsers and mobile devices,SYSTEM,offers,Association
+Users can log in to the online service,users,USER ROLE,online service,SYSTEM,log in,Interaction
+The online service allows users to submit electricity meter readings,online service,SYSTEM,electricity meter readings,DATA,allows,Association
+The online service allows users to submit gas meter readings,online service,SYSTEM,gas meter readings,DATA,allows,Association
+The energy provider notifies users upon successful submission of meter readings,energy provider,ORGANIZATION,users,USER ROLE,notifies,Association
+The energy provider sends bill amounts based on meter readings,energy provider,ORGANIZATION,bill amounts,DATA,sends,Association
+The mobile application is a realization of the online service,mobile application,APPLICATION,online service,SYSTEM,realizes,Realization
+Users interact with the online service through a user interface,users,USER ROLE,user interface,COMPONENT,interact,Interaction
+The online service communicates with a database to store meter readings,online service,SYSTEM,database,DATA,communicates,Connection
+The notification system sends alerts to users after submitting meter readings,notification system,SYSTEM,users,USER_ROLE,sends,Association
+The billing system calculates bill amounts based on meter readings,billing system,SYSTEM,meter readings,DATA,calculates,Association
+The authentication system handles user login and verification,authentication system,SYSTEM,user login,DATA,handles,Association
+The online service provides a connection to the customer support platform,online service,SYSTEM,customer support platform,SYSTEM,provides,Connection
+The mobile application supports various device types and operating systems,mobile application,APPLICATION,device types and operating systems,TECH_REQ,supports,Association
+The web application supports user registration and authentication,web application,APPLICATION,user registration and authentication,FEATURE,supports,Association
+A load balancer distributes incoming traffic among multiple servers,load balancer,COMPONENT,servers,HARDWARE,distributes,Association
+The database server communicates with the application server for data storage and retrieval,database server,SYSTEM,application server,SYSTEM,communicates,Connection
+The system uses a RESTful API to expose functionality to external services,system,SYSTEM,RESTful API,COMPONENT,uses,Association
+Users can create and manage projects within the application,users,USER ROLE,projects,DATA,create and manage,Association
+The caching mechanism improves application performance by storing frequently accessed data,caching mechanism,COMPONENT,application,APPLICATION,improves,Association
+The payment gateway processes transactions between the application and financial institutions,payment gateway,COMPONENT,transactions,DATA,processes,Association
+The microservices architecture allows for independent deployment and scaling of components,microservices architecture,TECH_REQ,components,COMPONENT,allows,Association
+The application uses OAuth2 for secure third-party authentication,application,APPLICATION,OAuth2,TECH_REQ,uses,Association
+The system supports multi-tenancy and allowing multiple clients to use the application independently,system,SYSTEM,multi-tenancy,FEATURE,supports,Association
+The message queue enables asynchronous communication between application components,message queue,COMPONENT,application components,COMPONENT,enables,Association
+The user interface provides an interactive dashboard for visualizing data,user interface,COMPONENT,interactive dashboard,DATA,provides,Association
+The application sends email notifications for important updates,application,APPLICATION,email notifications,DATA,sends,Association
+The application uses a container orchestration platform to manage deployed services,application,APPLICATION,container orchestration platform,SYSTEM,uses,Association
+The mobile app accesses the same backend as the web application,mobile app,APPLICATION,backend,SYSTEM,accesses,Access
+The CDN improves content delivery by caching static assets,CDN,SYSTEM,content delivery,DATA,improves,Association
+The application uses a graph database to store and manage relationships between entities,application,APPLICATION,graph database,DATA,uses,Association
+The system offers a plugin architecture to extend its functionality,system,SYSTEM,plugin architecture,TECH_REQ,offers,Association
+The application supports exporting data in various formats like CSV and JSON,application,APPLICATION,CSV and JSON,DATA,supports,Association
+The logging system collects and aggregates logs for analysis,logging system,SYSTEM,logs,DATA,collects and aggregates,Association
+The analytics component processes and visualizes user engagement data,analytics component,COMPONENT,user engagement data,DATA,processes and visualizes,Association
+The system supports integration with third-party project management tools,system,SYSTEM,project management tools,COMPONENT,supports,Association
+The application has a search feature that indexes data for quick retrieval,application,APPLICATION,search feature,FEATURE,has,Association
+The system uses role-based access control to manage user permissions,system,SYSTEM,role-based access control,TECH_REQ,uses,Association
+The application provides a REST API for developers to access its resources,application,APPLICATION,REST API,COMPONENT,provides,Connection
+The web application employs a responsive design for optimal display on various devices,web application,APPLICATION,responsive design,TECH_REQ,employs,Association
+The system uses encryption to protect sensitive data,system,SYSTEM,encryption,TECH_REQ,uses,Association
+The system is designed with a three-tier architecture separating presentation business logic and data storage layers,system,SYSTEM,three-tier architecture,TECH_REQ,is designed with,Association
+The application uses a NoSQL database for scalable and flexible data storage,application,APPLICATION,NoSQL database,DATA,uses,Association
+The system offers an API gateway to manage and secure access to microservices,system,SYSTEM,API gateway,COMPONENT,offers,Association
+The application integrates with a real-time chat service to facilitate communication between users,application,APPLICATION,real-time chat service,SYSTEM,integrates,Interaction
+The system uses a containerized deployment approach for easy scaling and portability,system,SYSTEM,containerized deployment approach,TECH_REQ,uses,Association
+The application has a built-in help center to provide support for users,application,APPLICATION,help center,COMPONENT,has,Association
+The system supports integration with third-party analytics tools for enhanced data analysis,system,SYSTEM,third-party analytics tools,COMPONENT,supports,Association
+The application offers a recommendation engine to suggest relevant content to users,application,APPLICATION,recommendation engine,COMPONENT,offers,Association
+The system employs a continuous integration and deployment pipeline for efficient code delivery,system,SYSTEM,continuous integration and deployment pipeline,TECH_REQ,employs,Association
